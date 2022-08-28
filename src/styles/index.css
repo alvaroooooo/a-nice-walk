@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jost:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  --bg-color: #1f2937;
+  --bg-color-light: #2d3643;
+  --success-500: #10b981;
+  --success-700: #047857;
+  --danger-500: #e11d48;
+  --danger-700: #be123c;
+  --outline-color: #4c1d95;
+  --text-color: #c3d1e2;
+  --title-color: #e5e5e5;
+  --text-normal-color: white;
+  --reset-color: #d97706;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+  text-align: center;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+#root {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  place-items: center;
+  width: 100%;
+  min-height: 99vh;
+}
+
+.brand {
+  display: flex;
+  font-size: 1.2rem;
+  font-style: italic;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+}
+
+.brand > div {
+  margin: auto;
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "id": 0,
+    "title": "What is the painting with the highest price paid ever?",
+    "type": "Alternative",
+    "alternatives": ["Salvatore Mundi", "The Scream", "Portrait of Dr. Gachet", "The Card Players"],
+    "assets": "",
+    "answerKey": 0,
+    "answer": "With a price of $450.3 M in 2017 ($497 M adjusted) Salvatore Mundi has been the most expensive painting ever sold"
+  },
+  {
+    "id": 1,
+    "title": "In which of these films the soundtrack is written and performed by Phil Collins?",
+    "type": "Alternative",
+    "alternatives": [
+      "Meet The Robinson",
+      "Tarzan",
+      "Atlantis",
+      "The Lion King"
+    ],
+    "assets": "",
+    "answerKey": 1,
+    "answer": "Tarzan is acknowledge by songs like 'Son of Men', 'Two Worlds' or 'You will be in my heart' that Phil Collins made specially for this movie"
+  },
+
+  {
+    "id": 2,
+    "title": "All we hear is Radio Ga Ga 🎵",
+    "content": "What is your favorite song? If you want, you can listen it with him, I'm sure that he would like it (well, just a 95% sure).",
+    "type": "Favorite",
+    "assets": ""
+  },
+  {
+    "id": 3,
+    "title": "WALK! (like the Pantera's song)",
+    "type": "Favorite",
+    "content": "",
+    "assets": ""
+  },
+  {
+    "id": 4,
+    "type": "Recomendation",
+    "title": "Recomendaciones con Amor (Pelis)",
+    "content": "Recomendar es un gesto de amor, un gesto de entrega, esperar que la persona que lo reciba pueda sentir lo mismo que tu alguna vez sentiste, pero por primera vez y lo preparas para eso. Da la mejor recomendación con amor que puedas diciendo porqué te gusto y porqué le gustaría al otro"
+  },
+  {
+    "id": 5,
+    "type": "Favorite",
+    "title": "What if?",
+    "content": "Queen has a song called 'I want it all' in honor of the phrase that the Bryan May's wife always said, what would be the name of your song if it corresponded to what you frequently say?"
+  },
+  {
+    "id": 6,
+    "type": "Favorite",
+    "title": "Wild Song! 🎧",
+    "content": "'Eternal Flame', released in 1989, is a song by 'the Bangles', a pop rock group of four women, another famous song of them is 'Walk like an Egyptian' (popular for a boring retail commercial 🥱). Nonetheless, this song is a master piece, so you should listen it"
+  },
+  {
+    "id": 7,
+    "type": "Favorite",
+    "title": "Once Upon a Time ...",
+    "content": "Your partner sucks telling stories, he always miss important details, but I'm pretty sure that he want to improve, so why you don't ask him what the hell happened in Ruanda? I really hope that he don't mess up the story, but be patient if something goes wrong."
+  },
+  {
+    "id": 8,
+    "type": "Favorite",
+    "title": "Meme time!",
+    "content": "Describe your favorite meme (Do you dare to act it?)"
+  },
+  {
+    "id": 9,
+    "type": "Favorite",
+    "title": "Ping pong Time!",
+    "content": "You have two options, play ping-pong if there is an available table and to be fair he should play with his non skilled hand. Otherwise, bounce the a ball as many time as you can (but you should be sit), and yes, you can distract the other guy but not touching her/him. The winner can ask for whatever he/she wants"
+  },
+  {
+    "id": 10,
+    "type": "Favorite",
+    "title": "Are you enough fast with your hands?",
+    "content": "Play 'the nervious', this should be play with an english deck of cards, you split the deck in two and each player should throw a card and count at the same time, if the card is the same as the number the first that put the hand in the deck win the turn, there is a winner when someone don't have cards in his/her hands"
+  }, 
+  {
+    "id": 11,
+    "type": "Favorite",
+    "title": "Let me ONE!",
+    "content": "Play One!, the guy at your side brought the cards"
+  },
+  {
+    "id": 12,
+    "type": "Favorite",
+    "title": "Are a dread and a fugitive miiiind!",
+    "content": "...I ought to get caught, because i'm doing something wicked, I'm guilty, haunted by my fears and the only consequenses, are a dread and a fugitive mind... Listen the favorite song of the other. The recommender should do a lip sync of the song. At the end, say each other how was the experience."
+  },
+  {
+    "id": 13,
+    "type": "Favorite",
+    "title": "Are we simple like words?",
+    "content": "Describe yourself in three words, and try to explain why that words."
+  },
+  {
+    "id": 14,
+    "type": "Favorite",
+    "title": "Liar Liar",
+    "content": "Say three truths about you and a lie, the other should guess which sentence is false."
+  },
+  {
+    "id": 15,
+    "type": "Favorite",
+    "title": "1, 2 & 3",
+    "content": "On the count of three, say your favorite animal, why that choice?"
+  },
+  {
+    "id": 16,
+    "type": "Favorite",
+    "title": "I'm vengeance",
+    "content": "Do you like comics? In the of a 'yes' Marvel or DC"
+  },
+  {
+    "id": 17,
+    "type": "Favorite",
+    "title": "Asereje a ejé",
+    "content": "What is the catchiest song you know?"
+  },
+  {
+    "id": 18,
+    "type": "Who said that?",
+    "content": "Beneath this mask is an idea and ideas are bulletproof"
+  }
+]
