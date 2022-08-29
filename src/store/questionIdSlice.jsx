@@ -1,10 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit';
 import data from './../assets/data.json';
 
-const initialState = {
-  currentQuestionId: 0,
+const initialStateEmpty = {
   maxId: data.length - 1,
   minId: 0
+}
+let initialState;
+if (localStorage.getItem("idStatus")) {
+  const savedInfo = JSON.parse(localStorage.getItem('idStatus'))
+  initialState = {currentQuestionId: parseInt(savedInfo, 10), ...initialStateEmpty}
+} else {
+  initialState = {currentQuestionId: 0, ...initialStateEmpty}
 }
 
 const questionIdSlice = createSlice({
@@ -14,6 +20,7 @@ const questionIdSlice = createSlice({
     nextQuestion: (state) => {
       if (state.currentQuestionId < state.maxId) {
         state.currentQuestionId ++
+        localStorage.setItem('idStatus', `${state.currentQuestionId}`)
       }
     },
     previousQuestion: state => {
